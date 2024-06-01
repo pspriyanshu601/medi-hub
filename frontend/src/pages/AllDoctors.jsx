@@ -8,6 +8,8 @@ function AllDoctors() {
   const [selectedCity, setSelectedCity] = useState("");
   const [cities, setCities] = useState([]);
 
+
+  
   useEffect(() => {
     const fetchDoctors = async () => {
       try {
