@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import DoctorsCard from "../components/DoctorsCard";
-import SearchDoctor from "../components/SearchDoctor"; 
+import SearchDoctor from "../components/SearchDoctor"; // Import the new component
 
 function AllDoctors() {
   const [doctors, setDoctors] = useState([]);
